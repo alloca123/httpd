@@ -1,0 +1,1 @@
+This fork adds a serve_gzip option. When enabled, If the client requests path, then serve path.gz if it exists and the client accepts Content-Encoding: gzip. This hopefully will get added to the official source code in the future though.
